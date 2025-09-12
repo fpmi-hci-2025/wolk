@@ -1,0 +1,22 @@
+title: "TITLE"
+description: "DESCRIPTION"
+
+markdown: kramdown
+remote_theme: jekyll/minima@master
+
+plugins:
+  - jekyll-remote-theme
+
+minima:
+  skin: solarized
+  date_format: "%b %-d, %Y"
+  nav_pages:
+    - index.md
+    - specification.md
+    - page.md
+
+
+header_pages:
+  - index.md
+  - specification.md
+  - page.md
